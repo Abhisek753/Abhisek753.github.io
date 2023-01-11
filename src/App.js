@@ -1,12 +1,14 @@
 
 import './App.css';
-import { MainPage } from './Pages/MainPage';
+import { Home } from './Components/home';
+
 
 function App() {
   return (
     <div className="App">
     
-    <MainPage/>
+    <Home/>
+    
     </div>
   );
 }

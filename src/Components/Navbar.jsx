@@ -15,10 +15,11 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
+  useColorMode,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon, AddIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 
-const Links = ['Dashboard', 'Projects', 'Skills'];
+const Links = ['Home','About', 'Skills','Project','Contact','Resume'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -35,6 +36,7 @@ const NavLink = ({ children }) => (
 );
 
 export default function Navbar() {
+  const { colorMode, toggleColorMode } = useColorMode()
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -49,7 +51,7 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
+            
             <HStack
               as={'nav'}
               spacing={4}
@@ -74,7 +76,17 @@ export default function Navbar() {
                     'https://avatars.githubusercontent.com/u/112477961?v=4'
                   }
                 />
+                
+                
               </MenuButton>
+              {/* <IconButton icon="MoonIcon" onClick={toggleColorMode}>
+                  Toggle {colorMode === 'light' ? 'Dark' : 'Light'}</IconButton> */}
+              
+                  <Button onClick={toggleColorMode}>
+                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+              </Button>
+              
+              
               <MenuList>
                 <MenuItem>Link 1</MenuItem>
                 <MenuItem>Link 2</MenuItem>
