@@ -8,7 +8,9 @@ export const Header = () => {
   const [isOpen,setIsOpen]=useState(false)
   return (
     <div className='header'>
-      <div className='logo'>logo</div>
+      <div className='logo'>
+        <img className='logo-img' src='https://avatars.githubusercontent.com/u/112477961?v=4'/>
+      </div>
       <div className='menu'>
          <div className='web-menu'> 
          <Web/>

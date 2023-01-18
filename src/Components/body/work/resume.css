@@ -1,0 +1,50 @@
+.resume-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 5%;
+}
+.resume-text{
+    font-size: 24px;
+    margin: 10px;
+    
+
+}
+.resume-btn{
+    border:1px solid  rgb(172, 95, 203);
+    font-size: 32px;
+    border-radius: 8%;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.resume-btn:hover{
+    
+        background-color: rgb(172, 95, 203);
+      }
+
+@media only screen and (max-width:720px){
+    .resume-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px  10px 0px 10px;
+    }
+    .resume-text{
+        font-size: 18px;
+        margin:auto;
+        
+    
+    }
+    .resume-btn{
+        
+        font-size: 70%;
+        border-radius: 8%;
+        align-items: center;
+        text-align: center;
+        padding:3%;
+        margin: auto;
+        width: 60%;
+    }
+}

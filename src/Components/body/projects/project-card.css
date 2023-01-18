@@ -1,0 +1,112 @@
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex: 1;
+    margin: 16px 0px;
+    /* border: 1px solid red; */
+    padding: 8px 2px 4px 2px;
+}
+.project-photo{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.project-info{
+  padding: 2%;
+  font-size:medium;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.project-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.project-tags{
+    display: flex;
+    max-width: 80%;
+    /* border: 1px solid red; */
+    
+    flex-wrap:wrap ;
+}
+.tag{
+   background-color: rgb(172, 95, 203);
+   padding: 4px 8px;
+   margin: 1%;
+   margin-top: 2%;
+   border-radius: 4px;
+}
+.project-links a{
+    color: black;
+    /* border: 1px solid red; */
+
+    text-decoration: none;
+    
+}
+.project-links{
+    display: flex;
+    margin-top: 1%;
+}
+.link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(172, 95, 203);
+    margin-top: 1%;
+    width: max-content;
+    padding: 1% 2%;
+    /* border: 1px solid red; */
+    
+    border-radius: 4px;
+    margin-right: 5px;
+    
+}
+
+.link-button i{
+    display: flex;
+    align-items: center;
+    mask-repeat: 4px;
+}
+
+@media only screen and (max-width: 720px){
+    .project-photo{
+        width: 90%;
+        margin: auto;
+        border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+    }
+    
+    .project-card{
+        
+        display: grid;
+        
+        grid-template-columns: repeat(1,1fr);
+        }
+        .project-info{
+            
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+        }
+        .project-tags{
+            max-width: 100%;
+            display: flex;
+            /* border: 1px solid rgb(55, 17, 145); */
+            align-items: center;
+            justify-content: center;
+
+        }
+        .project-links{
+            display: flex;
+            /* border :1px solid red; */
+            margin-top: 1%;
+            align-items: center;
+            justify-content: center;
+        }
+}

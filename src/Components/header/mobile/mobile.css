@@ -1,5 +1,5 @@
 .mobile{
-    background-color:white;
+    
     height: 100vh;
     width: 60vw;
     position: absolute;
@@ -9,28 +9,37 @@
     padding: 18px 12px;
     display: flex;
     flex-direction: column;
+    
+    
 }
 .close-icon{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     font-size: 24px;
 }
 .mobile-options{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     padding-top: 24px;
-    align-items: center;
+    margin: auto;
     height: 100%;
     justify-content: center;
+    
 }
 .mobile-option{
     font-size: 24px;
     margin: 12px 0px;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
 }
 .mobile-option a{
     text-decoration: none;
     display: flex;
+     
+    align-items: center;
 
 }

@@ -1,13 +1,23 @@
 import React from 'react'
-import { Skills } from '../Skills'
-import About from './about'
+import Home from './home'
+
 import "./body.css"
 import Contact from './Contect'
 import Projects from './projects'
+import Skills from './skills'
+import About from './about'
+import {Routes,Route} from "react-router-dom"
+import Resume from './work'
+
+
+
 
 const Body = () => {
   return (
     <div className='body'>
+      <section id='home'>
+        <Home/>
+      </section>
       <section id='about'>
         <About/>
       </section>
@@ -19,6 +29,9 @@ const Body = () => {
       </section>
       <section id='contact'>
         <Contact/>
+      </section>
+      <section id='resume'>
+        <Resume/>
       </section>
 
     </div>

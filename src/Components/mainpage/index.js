@@ -1,18 +1,15 @@
 
 import React from 'react'
-import "./home.css"
+import "./mainpage.css"
 
-import AllRoutes from '../../Pages/AllRoutes'
-import { Theme } from "../../Theme"
-import Navbar from '../Navbar'
 import Footer from '../footer'
 import Body from '../body'
 import { Header } from '../header'
 
-export const Home = () => {
+export const Mainpage = () => {
   
   return (
-    <div className='home'>
+    <div className='mainpage'>
       <div>
       {/* <Navbar/> */}
 
