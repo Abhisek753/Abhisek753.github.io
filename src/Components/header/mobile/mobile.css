@@ -9,6 +9,7 @@
     padding: 18px 12px;
     display: flex;
     flex-direction: column;
+    z-index: 1000;
     
     
 }

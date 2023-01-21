@@ -12,8 +12,10 @@ const Home = () => {
             <h3>Full Stack Web Developer</h3>
             I love Experimenting with the web.
             <a href="src\portfolio_img\Abhisek_Kumar_Resume.pdf" download
-        ><div className='dwn-btn'>RESUME</div></a> 
+        ><div  className="button-85 dwn-btn " role="button">Resume</div></a> 
+        
         </div>
+        
         <div className='home-photo'>
             <img src={require("../../../portfolio_img/pic.jpg")}
             className="picture"
@@ -28,3 +30,8 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+
+/* CSS */

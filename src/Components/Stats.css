@@ -1,0 +1,31 @@
+.main-stats{
+  margin: auto;
+  border:1px solid red;
+}
+
+.stats-div{
+  
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-stat{
+  /* border:1px solid blue; */
+  margin: auto;
+}
+
+.right-stat{
+  /* border:1px solid rgb(94, 228, 130); */
+  margin: auto;
+}
+.jjjj{
+  /* border:2px solid rgb(172, 32, 109); */
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  height: 200px;
+  text-align: center;
+ justify-content: center;
+
+}

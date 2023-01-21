@@ -9,6 +9,7 @@
     /* background-color: #fff; */
     align-items: center;
     flex:1;
+    z-index: 1000;
 }
 .web-option{
     font: 20px;

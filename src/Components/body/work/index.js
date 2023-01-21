@@ -9,7 +9,7 @@ const Resume = () => {
        
       </div>
      <a href="src\portfolio_img\Abhisek_Kumar_Resume.pdf" download
-     ><div className='resume-btn'>DOWNLOAD</div></a> 
+     ><div  className="button-85 resume-btn">DOWNLOAD</div></a> 
 
     </div>
   )

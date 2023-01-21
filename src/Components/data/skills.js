@@ -1,5 +1,8 @@
 
 import { SiChakraui } from "react-icons/si";
+import { FiCodesandbox } from "react-icons/fi";
+
+
 export const SkillsData=[
     {
         type:"Frontend",
@@ -46,5 +49,26 @@ export const SkillsData=[
             icon:<i class="devicon-nodejs-plain-wordmark colored"></i>
         },
       ]
-    }
+    },
+    {
+        type:"Tools",
+        list:[
+          {
+              name:"Vs Code",
+              icon:<i class="devicon-vscode-plain colored"></i>
+          },
+          {
+              name:"GitHub",
+              icon:<i class="devicon-github-original colored"></i>
+          },
+          {
+            name:"CodeSandBox",
+            icon:FiCodesandbox
+        },
+        {
+            name:"Codepen",
+            icon:<i class="devicon-codepen-plain"></i>
+        },
+        ]
+      }
 ]

@@ -5,6 +5,8 @@ import "./mainpage.css"
 import Footer from '../footer'
 import Body from '../body'
 import { Header } from '../header'
+import { Calender } from '../Calender'
+import { Stats } from '../Stats'
 
 export const Mainpage = () => {
   
@@ -20,6 +22,12 @@ export const Mainpage = () => {
       </div>
       <div>
         <Body/>
+      </div>
+      <div>
+        <Calender/>
+      </div>
+      <div>
+        <Stats/>
       </div>
       <div>
         <Footer/>
