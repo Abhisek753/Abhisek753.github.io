@@ -1,5 +1,7 @@
 import React from 'react'
 import "./skill-card.css"
+import { FiCodesandbox } from "react-icons/fi";
+
 
 const Skillcard = ({skill}) => {
   return (

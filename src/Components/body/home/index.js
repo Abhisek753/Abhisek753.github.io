@@ -11,7 +11,7 @@ const Home = () => {
             <br/> <span className='info-name'>Abhisek Kumar 👨🏻‍💻</span>
             <h3>Full Stack Web Developer</h3>
             I love Experimenting with the web.
-            <a href="src\portfolio_img\Abhisek_Kumar_Resume.pdf" download
+            <a href="Abhisek_Kumar_Resume.pdf" download={true}
         ><div  className="button-85 dwn-btn " role="button">Resume</div></a> 
         
         </div>

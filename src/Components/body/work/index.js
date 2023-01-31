@@ -8,7 +8,7 @@ const Resume = () => {
       <h1>Please Look Into My Resume</h1>
        
       </div>
-     <a href="src\portfolio_img\Abhisek_Kumar_Resume.pdf" download
+     <a  href="Abhisek_Kumar_Resume.pdf" download={true}
      ><div  className="button-85 resume-btn">DOWNLOAD</div></a> 
 
     </div>

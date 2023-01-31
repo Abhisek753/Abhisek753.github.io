@@ -4,6 +4,7 @@ import { SkillsData } from '../../data/skills'
 import Skillcard from './skillcard'
 import "./skills.css"
 import { FiCodesandbox } from "react-icons/fi";
+
 //given two map one for fronted and another for backend
 const Skills = () => {
   const data=SkillsData;
