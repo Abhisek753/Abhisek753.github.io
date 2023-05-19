@@ -15,7 +15,7 @@ const About = () => {
         
        </div>
        <div className='about-bottom'>
-        <p className='about-para'>An enthusiastic full-stack web developer with the specialization in MERN stack. Having 1200+ hours of coding , 100+ hours of soft skill training .Self Motivated, keen to learn and eager to build new and creative web products as per guidelines .Looking forward to work as a developer and enhancing my technical skill while creating challenging products .</p>
+        <p className='about-para'>An enthusiastic full-stack web developer with the specialization in MERN stack. Having 1200+ hours of coding and 100+ hours of soft skill training. Self Motivated, keen to learn and eager to build new and creative web products as per guidelines. Looking forward to work as a developer and add value to the company and stakeholders with my tech skills.</p>
         </div>
         </div>
     </div>

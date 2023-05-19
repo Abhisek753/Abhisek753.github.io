@@ -9,7 +9,9 @@ export const Header = () => {
   return (
     <div className='header'>
       <div className='logo'>
+        <a href='#home'>
         <img className='logo-img' src='https://avatars.githubusercontent.com/u/112477961?v=4'/>
+        </a> 
       </div>
       <div className='menu'>
          <div className='web-menu'> 

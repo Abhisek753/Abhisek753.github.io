@@ -4,8 +4,9 @@
     width: 60vw;
     position: absolute;
     right: 0px;
-    background-color:plum;
+    background-color:rgb(106, 106, 123);
     top: -4px;
+    color: white;
     padding: 18px 12px;
     display: flex;
     flex-direction: column;

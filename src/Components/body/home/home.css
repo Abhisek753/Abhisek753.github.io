@@ -28,6 +28,7 @@
         width: max-content;
         border-radius: 4px;
         margin-top: 10%;
+        
         font-size: 70%;
         padding: 0% 2% 0% 2%;
     }
@@ -38,7 +39,7 @@
         color: rgb(255, 255, 255);
         background: #111;
         cursor: pointer;
-        position: relative;
+        /* position: relative; */
         z-index: -100;
         border-radius: 10px;
         user-select: none;
@@ -60,7 +61,7 @@
           #ff00c8,
           #ff0000
         );
-        position: absolute;
+        /* position: absolute; */
         top: -2px;
         left: -2px;
         background-size: 400%;
@@ -89,7 +90,7 @@
       .button-85:after {
         z-index: -1;
         content: "";
-        position: absolute;
+        /* position: absolute; */
         width: 100%;
         height: 100%;
         background: #222;
@@ -104,7 +105,6 @@
         .home-top{
             flex-direction: column;
             justify-content: center;
-            align-items: center;
         }
         .picture{
             height: 250px;
@@ -112,6 +112,11 @@
         }
         .home-info{
             font-size: 20px;
+            /* border: 2px solid green; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin-bottom: 10%;
+
         }
         .info-name{
             font-size: 26px;
@@ -119,6 +124,7 @@
         .dwn-btn{
             margin: auto;
             margin-bottom: 20%;
+            /* border-radius: 1px solid green; */
             z-index: -100;
         }
     }

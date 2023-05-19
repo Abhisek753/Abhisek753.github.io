@@ -97,13 +97,13 @@ export default function Footer() {
           align={{ base: 'center', md: 'center' }}>
           <Text>Copyright © 2022. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'https://twitter.com/Abhisek753?t=cL8DzrtbBkKNv3BD9TIy8w&s=09'}>
+            <SocialButton label={'Twitter'} href={'https://twitter.com/Abhisek753?t=cL8DzrtbBkKNv3BD9TIy8w&s=09'} isExternal>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'https://youtube.com/@abhisek753'}>
+            <SocialButton label={'YouTube'} href={'https://youtube.com/@abhisek753'} isExternal>
               <FaYoutube />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://www.instagram.com/invites/contact/?i=1x2jf703tdsby&utm_content=31dyl50'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/invites/contact/?i=1x2jf703tdsby&utm_content=31dyl50'}  target={"_blank"}>
               <FaInstagram />
             </SocialButton>
           </Stack>

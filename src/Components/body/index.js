@@ -27,12 +27,13 @@ const Body = () => {
       <section id='skills'>
         <Skills/>
       </section>
-      <section id='contact'>
-        <Contact/>
-      </section>
       <section id='resume'>
         <Resume/>
       </section>
+      {/* <section id='contact'>
+        <Contact/>
+      </section> */}
+      
 
     </div>
   )

@@ -12,12 +12,12 @@ export const ProjectData=[
     },
     {
         id:2,
-        title:"NAUKRI CLONE",
-        about:"Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies and to job seekers in India and overseas. It offers multiple products like Resume Database Access, listings and Response Management Tools.",
-        tags:["HTML","CSS","JAVASCRIPT"],
-        demo:"https://www.naukri.com/",
-        github:"https://github.com/kartikmickey/axiomatic-agreement-5684",
-        image:require("../../portfolio_img/naukri.png"),
+        title:"KOOVS CLONE (Kapdelo)",
+        about:"Kapdelo is a Ecomerse related website which helps you to find the different kinds of the products. Kapdelo is part of THG Holdings plc, a globally renowned end-to-end tech platform specializing in taking brands direct to consumers across the globe.",
+        tags:["JAVASCRIPT","MongoDb","REACT","REDUX","CYPRESS","CHAKRA UI"],
+        demo:"https://frontend-mohit-6164.vercel.app/",
+        github:"https://github.com/sukanta255/ordinary-summer-5089",
+        image:require("../../portfolio_img/Koovs.com.png"),
         
         
     },
@@ -48,8 +48,8 @@ export const ProjectData=[
         title:"Machine & Tools",
         about:" We are one-of-its-kind online platform, featuring an exclusive range of utility products for all industrial purposes. Industrybuying began its operations during 2013, with an objective to inculcate and introduce the concept of industrial supply chains in India. Currently our website maintains a fully catalogued collection of over 3.8 Lac SKUs, from brands across global geographies.",
         tags:["HTML","CSS","JAVASCRIPT","REACT","REDUX","CHAKRA UI","FIREBASE"],
-        demo:"https://machine-and-tools.netlify.app/",
-        github:"https://github.com/Abhisek753/stark-cellar-4099",
+        demo:"https://machine-and-tools.netlify.app/" ,
+        github:"https://github.com/sukanta255/ordinary-summer-5089",
         image:require("../../portfolio_img/machineproject.png"),
         
         

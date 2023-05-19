@@ -8,15 +8,15 @@ const ProjectCard = ({project}) => {
         <div className='project-info'>
             <label className='project-title'>{project.title}</label>
             <div className='project-links'>
-                {project.demo&&(<a className='project-link' href={project.demo}>
+                {project.demo&&(<a className='project-link' href={project.demo} target={"_blank"} >
                     <div className='link-button'>
-                       <div style={{display:"flex",alignItems:"center"}}> <FaGlobe/>Demo</div>
+                       <div style={{display:"flex",alignItems:"center"}}> <FaGlobe style={{marginRight:"8px"}}/>Demo</div>
                     </div>
                     </a>
                         )}
-                 {project.github&&(<a className='project-link' href={project.github}>
+                 {project.github&&(<a className='project-link' href={project.github} target={"_blank"}>
                      <div className='link-button'>
-                    <i class="devicon-github-original colored"></i>Github
+                    <i style={{marginRight:"8px"}} class="devicon-github-original colored"></i>Github
                     </div>
                     </a>
                     )}

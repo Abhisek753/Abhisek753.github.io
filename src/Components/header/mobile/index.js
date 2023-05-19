@@ -51,11 +51,18 @@ const Mobile = ({isOpen,setIsOpen}) => {
             
            </a>
         </div>
-        <div className='mobile-option'>
+        {/* <div className='mobile-option'>
            <a href='#resume'>
             <FaElementor className='option-icon'/>Resume
             
            </a>
+        </div> */}
+         <div className='mobile-option'
+         onClick={()=>window.open("https://drive.google.com/file/d/1XC-etr2o1EV66wNP1FwqS1ePGBGdknxW/view?usp=share_link","_blank")}
+           >
+            <a href="./fw21_0691-Abhisek-Kumar-Resume.pdf" download={true}>
+         <FaElementor className='option-icon'/>Resume
+         </a>
         </div>
       </div>
     

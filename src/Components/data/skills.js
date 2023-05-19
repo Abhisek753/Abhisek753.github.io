@@ -19,6 +19,7 @@ export const SkillsData=[
                 name:"TypeScript",
                 icon:<i class="devicon-typescript-plain colored"></i>
             },
+
             {
                 name:"HTML",
                 icon:<i class="devicon-html5-plain-wordmark colored"></i>
@@ -62,7 +63,7 @@ export const SkillsData=[
               icon:<i class="devicon-github-original colored"></i>
           },
           {
-            name:"CodeSandBox",
+            name:"SandBox",
             icon:FiCodesandbox
         },
         {
