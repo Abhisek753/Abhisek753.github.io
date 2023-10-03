@@ -8,6 +8,7 @@ import { Header } from '../header'
 import { Calender } from '../Calender'
 import { Stats } from '../Stats'
 import Contact from '../body/Contect'
+import BackendPay from '../Payment/BackendPay'
 
 export const Mainpage = () => {
   
@@ -34,6 +35,9 @@ export const Mainpage = () => {
         <section id='contact'>
         <Contact/>
         </section>
+      </div>
+      <div >
+        <BackendPay/>
       </div>
       <div>
         <Footer/>
