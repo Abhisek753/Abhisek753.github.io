@@ -1,11 +1,31 @@
-body {
-  margin: 0;
-  font-family: 'Work Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-950 text-slate-300 antialiased;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Reusable classes, so the same look is not repeated in every file. */
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand to-accent bg-clip-text text-transparent;
+  }
+  .card {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-brand/50;
+  }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition duration-300;
+  }
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-brand to-accent text-white hover:shadow-lg hover:shadow-brand/40;
+  }
+  .btn-outline {
+    @apply btn border border-white/20 text-white hover:border-brand hover:text-brand;
+  }
 }
